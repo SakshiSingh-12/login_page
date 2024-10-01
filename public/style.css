@@ -51,3 +51,12 @@ button[type=submit] {
     font-size: 16px;
     margin-top: 10px;
 }
+
+/* Submit Button Hover Effect */
+button[type=submit]:hover {
+    background-color: #45a049;
+}
+input[type=text], input[type=email], input[type=tel], input[type=date] {
+    padding: 5px;
+    margin-bottom: 5px;
+}
