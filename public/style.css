@@ -13,3 +13,29 @@ form {
     max-width: 400px;
     margin: 0 auto;
 }
+
+/* Form Title */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Form Labels */
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #666;
+}
+
+/* Form Inputs */
+input[type=text],
+input[type=email],
+input[type=tel],
+input[type=date] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
